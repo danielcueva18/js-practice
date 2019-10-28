@@ -8,7 +8,7 @@ function inputCaloriesByDay(day) {
  if (day === 'monday') {
      return 3500;
     } else if (day === 'tuesday') {
-        return 15;
+        return 1500;
     } else if (day === 'wednesday') {
         return 1800;
         } else if (day === 'thursday') {
@@ -23,7 +23,7 @@ function inputCaloriesByDay(day) {
             return 'Please choose valid day';
         }
  }
- console.log(inputCaloriesByDay('tuesday'))
+console.log(inputCaloriesByDay('tuesday'))
 
 function getTotalCalories() {
     return inputCaloriesByDay('monday') +
@@ -41,8 +41,8 @@ function getIdealCalories() {
     var idealDailyCalories = 2000;
     return idealDailyCalories * 7;
 }
-console.log(getIdealCalories())
-console.log(getTotalCalories())
+console.log(getIdealCalories());
+console.log(getTotalCalories());
 
 function calculateHealthPlan() {
     var actualCalories = getTotalCalories();
