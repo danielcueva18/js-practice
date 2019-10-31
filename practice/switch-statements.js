@@ -29,6 +29,7 @@ switch (diceRoll) {
     case 2:
         diceRoll == 2
         return 'You rolled 2.. keep trying'
+        break;
     case 3: 
         diceRoll == 3
         return 'This is 3.. meh'
@@ -36,6 +37,7 @@ switch (diceRoll) {
     case 4:
         diceRoll == 4
         return 'You rolled 4.. I like it'
+        break;
     case 5: 
         diceRoll == 5
         return '5 is good!'
